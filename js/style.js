@@ -5,6 +5,8 @@ const css = `<style>
   :root{
     --line-height: 10px;
     --happy-color: #EAB543;
+    --action-color: #d2dae2;
+
   }
 
     * {
@@ -37,4 +39,4 @@ const css = `<style>
     }
   </style>`
 
-head.insertAdjacentHTML('beforeend', css)
+  head.insertAdjacentHTML('beforeend', css)
