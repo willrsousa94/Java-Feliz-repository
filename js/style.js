@@ -2,6 +2,11 @@
 const head = document.querySelector('head');
 
 const css = `<style>
+  :root{
+    --line-height: 10px;
+    --happy-color: #EAB543;
+  }
+
     * {
       margin: 0;
       padding: 0;
@@ -17,6 +22,9 @@ const css = `<style>
     }
 
     #root {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       box-sizing: border-box;
       font-family: 'Press Start 2P', cursive;
       background-color: #3b3b98;
@@ -25,7 +33,8 @@ const css = `<style>
       height: 65vh;
       text-align: center;
       padding-top: 4rem;
+      padding-bottom: 8rem;
     }
   </style>`
 
-head.insertAdjacentHTML('beforeend', css  )
+head.insertAdjacentHTML('beforeend', css)
